@@ -50,6 +50,8 @@ img {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px
+    padding-right: 15px
 }
 
 
@@ -59,8 +61,6 @@ img {
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .page-header {
@@ -388,6 +388,10 @@ img {
 
 .project-title {
     margin-bottom: 8px
+}
+
+.project-card {
+    width: calc((100% - 48px) / 3)
 }
 
 
