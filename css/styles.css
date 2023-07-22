@@ -50,7 +50,6 @@ img {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 15px;
 }
 
 
@@ -60,6 +59,8 @@ img {
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .page-header {
@@ -202,9 +203,18 @@ img {
     padding-bottom: 120px;
 }
 
-.advantages-title {
-    visibility: hidden;
-}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .advantages-list {
     display: flex;
@@ -320,10 +330,6 @@ img {
     padding-bottom: 120px; 
 }
 
-.project-filter-title {
-    visibility: hidden;
-}
-
 .button-secondary-list {
     display: flex;
     margin-left: auto;
@@ -355,8 +361,7 @@ img {
 .button-secondary:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
+    border: 1px solid transparent;
 }
 
 .description {
