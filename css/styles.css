@@ -52,8 +52,8 @@ img {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-  }
-  
+}
+
 .page-header-container {
     display: flex;
     align-items: center;
@@ -136,7 +136,6 @@ img {
 
 .directions-list {
     display: flex;
-    width: 674px;
     gap: 40px;
     justify-content: right;
 }
